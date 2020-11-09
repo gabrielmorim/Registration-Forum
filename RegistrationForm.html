@@ -9,11 +9,11 @@
 </head>
 <body> <br> <h1>Registration Form</h1>
     
-    <form method="post" action="https://bit.ly/3jYEMQd" >
+    <form method="post" action="https://bit.ly/3jYEMQd">
 
         Username:<br><input type="username" name="username">
         <br>
-        Password:<br><input type="pw" name="pw"> 
+        Password:<br><input type="password" id="pw"> 
         
         <br> <br> 
         Gender:
@@ -21,12 +21,17 @@
         <input type="radio" name="gender" value="female"> Female
         <br>
         
+    </div>
+        <input hidden="eMailMe" name= "eMailMe" id="eMailMe">
         Click to accept our terms: 
         <input type="checkbox">
         
         
         <br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" name="submitbutton" id="submitbutton" value="Register"  >
+        <input type="Reset"  name= "ResetButton" id="ResetButton"  value= "Reset" >
+
+        
     </form>
 
 </body>
